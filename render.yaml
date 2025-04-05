@@ -1,0 +1,6 @@
+- item1: services:
+- item2: - type: web
+- item3: name: flask-ml-app
+- item4: env: python
+- item5: buildCommand: ""
+- item6: startCommand: gunicorn app:app

@@ -8,7 +8,7 @@ import io
 app = Flask(__name__)
 
 # Load your trained model
-MODEL_PATH = "trained_model_new.h5"
+model_path = "trained_model_new.h5"
 if not os.path.exists(model_path):
     file_id = "1Cp3vOFt3WJySK-_-7jI7OREplMi3TWZz"
     url = f"https://drive.google.com/uc?id={file_id}"
